@@ -1,0 +1,97 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lucida Sans Unicode;
+}
+
+.top-wrapper {
+    padding: 500px 0 300px 0;
+    background-image: url("../img/6308.jpg");
+    background-size: cover;
+    color: black;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    margin: auto;
+    max-width: 1170px;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+.top-wrapper p {
+    opacity: 0/7;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    margin: 20px
+}
+
+.btn {
+    padding: 12px 24px;
+    color: red;
+    display: inline-block;
+    opacity: 0.8;
+    order-radius: 4px;
+    border: 2px solid #5e3a12fa;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: darkcyan;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.3;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-left a {
+    padding: 0 25px;
+    color: black;
+    font-size: 50px;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+}
